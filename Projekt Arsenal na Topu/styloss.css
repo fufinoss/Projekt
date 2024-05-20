@@ -1,0 +1,156 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+} 
+
+
+
+nav {
+    background-color: rgba(59, 59, 59, 0.548);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 87px;
+}
+
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 5px;
+    font-size: 20px;   
+    position: relative;
+    list-style: none;       
+    margin:0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 23px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 3px 15px; 
+    transition: 0.5s;
+}
+
+nav ul li::after{
+    content:"";
+    height: 2px;
+    width: 0;
+    background:rgb(4, 252, 239);
+    position: absolute;
+    left: 10%;
+    bottom: 30px;
+    transition: 0.5s;
+}
+
+
+nav ul li a:hover {
+    font-size: 23px;
+    
+}
+nav ul li:hover::after{
+    width: 80%;
+}
+
+
+
+.float:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.dropbtn {
+  color: white;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+  margin: 30px, 15px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  min-width: 120px;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  font-weight: 100;
+}
+
+
+.dropdown-content a:hover {background-color: rgba(0, 204, 255, 0.26)}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+body {
+    background: linear-gradient(rgba(236, 109, 109, 0.384), rgba(0, 0, 0, 0.6)), url(Obrazky/Stadion-pozadi.jpg) center/cover no-repeat fixed; 
+    line-height: 3.5;
+}
+
+
+
+
+
+.clanek{
+    text-align: center;
+    top: 800px;
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    list-style: none;
+} 
+
+
+.slogan{
+    text-align: center;
+    position: fixed;
+    top: 90px;
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.eminem {
+    margin-top: 0px; 
+    background-color: white;
+    position: relative;
+    top: 100vh;
+    padding: 50px 0; 
+    z-index: 1; 
+    width: 100%;
+}
+
+
+p{margin-bottom: 60px;
+
+} 
+*/ 
